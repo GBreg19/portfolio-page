@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: rgb(180, 180, 180);
+}
+
+@font-face {
+  font-family: "SpaceMono-Regular";
+  src: url("../fonts/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SpaceMono-Italic";
+  src: url("../fonts/SpaceMono-Italic.ttf");
+}
+@font-face {
+  font-family: "SpaceMono-BoldItalic";
+  src: url("../fonts/SpaceMono-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "SpaceMono-Bold";
+  src: url("../fonts/SpaceMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "VT323-Regular";
+  src: url("../fonts//VT323-Regular.ttf");
+}
