@@ -13,7 +13,7 @@ const Now = () => {
           <p className="font-vtReg bg-slate-700 px-2 rounded-md text-sm tracking-widest text-white">Last updated: July 26th</p>
         </span>
         <h2 className="my-5 font-spaceMonoMedIta font-semibold">Currently I'm working on:</h2>
-        <ul className="list-disc pl-5 w-4/5 flex flex-col gap-2 leading-7">
+        <ul className="list-disc pl-5 flex flex-col gap-2 leading-7">
           <li className="font-spaceMonoReg">
             I'm honing my expertise in TypeScript to build robust and scalable
             applications
