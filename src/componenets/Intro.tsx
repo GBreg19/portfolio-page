@@ -5,7 +5,7 @@ import { BiCircle } from "react-icons/bi";
 const Intro = () => {
   return (
     <Fragment>
-      <section className="flex flex-col h-96 justify-between basis-11/12">
+      <section className="flex flex-col gap-5 basis-11/12">
         <h1 className="font-spaceMonoBoldIta font-black text-4xl text-white">
           Giorgi Bregvadze
         </h1>
@@ -18,7 +18,7 @@ const Intro = () => {
           but also intuitive and effortless to navigate, guaranteeing an
           enjoyable and memorable journey for every visitor.
         </p>
-        <div className="flex w-2/3 justify-between">
+        <div className="flex gap-5">
           <div className="flex items-center">
             <span>
               <CiLocationOn />
