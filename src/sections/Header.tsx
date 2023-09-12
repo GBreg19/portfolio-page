@@ -5,7 +5,7 @@ import Card from "../layout/Card";
 
 const Header: React.FC = () => {
   return (
-    <Card className="flex flex-row gap-10 border-none">
+    <Card className="flex md:flex-row flex-col gap-10 border-none">
       <Navigation />
       <Intro/>
     </Card>
