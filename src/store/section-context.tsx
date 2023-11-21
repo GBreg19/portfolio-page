@@ -4,6 +4,7 @@ export const SectionContext = React.createContext({
   navRefs: {
     projects: null as React.RefObject<HTMLElement> | null,
     aboutMe: null as React.RefObject<HTMLElement> | null,
+    experience: null as React.RefObject<HTMLElement> | null,
     now: null as React.RefObject<HTMLElement> | null,
     contact: null as React.RefObject<HTMLElement> | null,
   },
@@ -17,6 +18,7 @@ type Props = {
 const SectionContextProvider = (props: Props) => {
   const projectsRef = useRef<HTMLElement>(null);
   const aboutMeRef = useRef<HTMLElement>(null);
+  const experienceRef = useRef<HTMLElement>(null);
   const nowRef = useRef<HTMLElement>(null);
   const contactRef = useRef<HTMLElement>(null);
 
@@ -28,6 +30,7 @@ const SectionContextProvider = (props: Props) => {
     navRefs: {
       projects: projectsRef,
       aboutMe: aboutMeRef,
+      experience: experienceRef,
       now: nowRef,
       contact: contactRef,
     },
