@@ -7,7 +7,7 @@ const Navigation = () => {
   const SectionCtx = useContext(SectionContext);
 
   return (
-    <div className="basis-2/12 h-1/2">
+    <div className="basis-4/12 h-1/2">
       <nav>
         <ul className="font-spaceMonoReg flex md:flex-col bg-slate-950 px-5 pt-1 rounded-md md:bg-inherit gap-3 flex-wrap justify-between">
           <li
@@ -27,6 +27,17 @@ const Navigation = () => {
               <FaUserCircle className="group-hover:text-cyan-500" />
             </span>
             <a>About me</a>
+          </li>
+          <li
+            className="hover:text-white cursor-pointer border-r-gray-400 hover:border-r-2 pb-2 sm:pr-0 pr-5 flex gap-2 items-center group duration-75 transition ease-in-out"
+            onClick={() =>
+              SectionCtx.handleClick(SectionCtx.navRefs.experience)
+            }
+          >
+            <span>
+              <FaUserCircle className="group-hover:text-green-600" />
+            </span>
+            <a>Experience</a>
           </li>
           <li
             className="hover:text-white cursor-pointer border-r-gray-400 hover:border-r-2 pb-2 sm:pr-0 pr-5 flex gap-2 items-center group duration-75 transition ease-in-out"
