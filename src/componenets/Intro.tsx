@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CiLocationOn } from "react-icons/ci";
-import { TbUserCode } from "react-icons/tb";
+import { MdLocationOn } from "react-icons/md";
 import { PiTerminalLight } from "react-icons/pi";
 
 const Intro = () => {
   return (
     <Fragment>
-      <section className="flex flex-col gap-5 basis-11/12">
+      <section className="flex flex-col gap-5">
         <h1 className="font-spaceMonoBoldIta font-black text-4xl text-white flex items-center gap-3">
           <PiTerminalLight className="animate-fade" /> Hi, I'm Giorgi
         </h1>
@@ -30,7 +30,7 @@ const Intro = () => {
           </div>
           <div className="flex items-center">
             <span>
-              <TbUserCode className="text-2xl" />
+              <MdLocationOn className="text-xl" />
             </span>
             {/* <p className="font-spaceMonoReg ml-2">Available for work</p> */}
           </div>

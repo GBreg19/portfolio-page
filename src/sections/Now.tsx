@@ -10,7 +10,7 @@ const Now = () => {
       <section ref={SectionCtx.navRefs.now}>
         <span className="flex items-center gap-5">
           <h1 className="font-spaceMonoBoldIta text-white text-3xl">Now</h1>
-          <p className="font-vtReg bg-slate-700 px-2 rounded-md text-sm tracking-widest text-white">Last updated: July 26th</p>
+          <p className="font-vtReg bg-slate-700 px-2 rounded-md text-sm tracking-widest text-white">Last updated: November 20th</p>
         </span>
         <h2 className="my-5 font-spaceMonoMedIta font-semibold">Currently I'm working on:</h2>
         <ul className="list-disc pl-5 flex flex-col gap-2 leading-7">
