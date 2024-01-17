@@ -31,7 +31,7 @@ const ProjectItem = (props: Props) => {
       >
         <FaGithub className="text-gray-300 group-hover:text-white" />
         <span className="font-spaceMonoReg group-hover:text-gray-300">
-          - Github Repository
+          - Code
         </span>
       </a>
       <a
@@ -39,7 +39,7 @@ const ProjectItem = (props: Props) => {
         target="_blank"
         className="flex items-center text-blue-400 hover:text-blue-300 font-spaceMonoReg"
       >
-        Visit
+        Live demo
         <span>
           <FaAngleRight className="text-sm ml-2" />
         </span>

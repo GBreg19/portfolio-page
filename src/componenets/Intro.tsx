@@ -12,11 +12,11 @@ const Intro = () => {
         </h1>
         <p className="font-spaceMonoReg">I'm a Front-end developer</p>
         <p className="font-spaceMonoReg leading-7">
-          Transitioning from Tbilisi State University with a degree in cultural
-          anthropology to pursuing Ethnicity and Nationalism Studies, my journey
-          has evolved into web development. Navigating HTML/CSS, advancing
-          through JavaScript, and mastering React.js. I am dedicated to becoming
-          a proficient full-stack developer...
+          I started my journey in cultural anthropology at Tbilisi State
+          University and later transitioned to Ethnicity and Nationalism
+          Studies. Along the way, I discovered my passion for web development.
+          From learning HTML/CSS to mastering JavaScript and React.js, I am
+          dedicated to becoming a skilled full-stack developer.
         </p>
         <div className="flex gap-5">
           <div className="flex items-center">
