@@ -15,7 +15,7 @@ const Projects = () => {
         <h1 className="font-spaceMonoBoldIta text-white text-3xl mb-5">
           Projects
         </h1>
-        <ul>
+        <ul className="flex flex-col gap-5">
           {projects
             .slice()
             .reverse()

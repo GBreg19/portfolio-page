@@ -14,7 +14,7 @@ const ProjectItem = (props: Props) => {
   const { itemData } = props;
 
   return (
-    <li className="hover:bg-slate-900 px-2 py-3 rounded-md flex flex-col gap-3">
+    <li className="hover:bg-slate-900 p-2 rounded-md flex flex-col gap-3">
       <span className="flex items-center gap-3">
         <h1 className="font-spaceMonoBold text-white text-xl">
           {itemData.title}
