@@ -18,6 +18,8 @@ export default {
         spaceMonoBoldIta: ["SpaceMono-BoldItalic"],
         spaceMonoBold: ["SpaceMono-Bold"],
         vtReg: ["VT323-Regular"],
+        literata: ["Literata", "Georgia", "serif"],
+        dmSans: ["DM Sans", "ui-sans-serif", "system-ui", "sans-serif"],
       },
     },
   },

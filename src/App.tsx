@@ -1,21 +1,13 @@
-import SectionContextProvider from "./store/section-context";
-import Header from "./sections/Header";
-import Projects from "./sections/Projects";
-import AboutMe from "./sections/AboutMe";
-import Now from "./sections/Now";
-import Contact from "./sections/Contact";
-import Experience from "./sections/Experience";
+import { Routes, Route } from "react-router-dom";
+import Home from "@/pages/Home";
+import Blog from "@/pages/Blog";
 
 function App() {
   return (
-    <SectionContextProvider>
-      <Header />
-      <Projects />
-      <AboutMe />
-      <Experience />
-      <Now />
-      <Contact />
-    </SectionContextProvider>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/blog" element={<Blog />} />
+    </Routes>
   );
 }
 

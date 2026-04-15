@@ -1,7 +1,14 @@
-import { FaFolder, FaUserCircle, FaReadme, FaBriefcase } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import {
+  FaFolder,
+  FaUserCircle,
+  FaReadme,
+  FaBriefcase,
+  FaBook,
+} from "react-icons/fa";
 import { AiFillFire } from "react-icons/ai";
 import { useContext } from "react";
-import { SectionContext } from "../store/section-context";
+import { SectionContext } from "@/store/section-context";
 
 const Navigation = () => {
   const SectionCtx = useContext(SectionContext);
@@ -17,7 +24,7 @@ const Navigation = () => {
             <span>
               <FaFolder className="group-hover:text-orange-200" />
             </span>
-            <a>Projects</a>
+            <a>My work</a>
             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-200 origin-bottom transform scale-x-0 transition-transform duration-250 ease-in-out group-hover:scale-x-100"></span>
           </li>
           <li
@@ -61,6 +68,18 @@ const Navigation = () => {
             </span>
             <a>Contact</a>
             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-300 origin-bottom transform scale-x-0 transition-transform duration-250 ease-in-out group-hover:scale-x-100"></span>
+          </li>
+          <li className="hover:text-white cursor-pointer pb-2 sm:pr-0 pr-5 flex gap-2 items-center uppercase relative group">
+            <Link
+              to="/blog"
+              className="flex gap-2 items-center text-inherit no-underline"
+            >
+              <span>
+                <FaBook className="group-hover:text-purple-400" />
+              </span>
+              <span>Blog</span>
+            </Link>
+            <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-purple-400 origin-bottom transform scale-x-0 transition-transform duration-250 ease-in-out group-hover:scale-x-100" />
           </li>
         </ul>
       </nav>

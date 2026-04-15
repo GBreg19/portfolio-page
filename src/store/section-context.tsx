@@ -8,7 +8,9 @@ export const SectionContext = React.createContext({
     now: null as React.RefObject<HTMLElement> | null,
     contact: null as React.RefObject<HTMLElement> | null,
   },
-  handleClick: (_ref: React.RefObject<HTMLElement> | null) => {},
+  handleClick: (_unused: React.RefObject<HTMLElement> | null) => {
+    void _unused;
+  },
 });
 
 type Props = {

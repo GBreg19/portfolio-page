@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../componenets/Navigation";
-import Intro from "../componenets/Intro";
-import Card from "../layout/Card";
+import Navigation from "@/componenets/navigation";
+import Intro from "@/componenets/intro";
+import Card from "@/componenets/layout/card";
 
 const Header: React.FC = () => {
   return (

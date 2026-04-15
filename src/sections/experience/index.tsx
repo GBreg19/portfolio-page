@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import Card from "../layout/Card";
-import { SectionContext } from "../store/section-context";
+import Card from "@/componenets/layout/card";
+import { SectionContext } from "@/store/section-context";
 
 const Experience = () => {
   const SectionCtx = useContext(SectionContext);
@@ -18,7 +18,7 @@ const Experience = () => {
             Nari Solutions
           </h1>
           <span className="flex  items-center gap-5">
-            <h2 className="font-spaceMonoIta">Junior Frontend Developer</h2>
+            <h2 className="font-spaceMonoIta">Frontend developer</h2>
             <p className="font-vtReg bg-slate-700 px-2 rounded-md text-sm tracking-wide text-white">
               Nov 2023 - Present
             </p>
